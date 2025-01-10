@@ -23,6 +23,15 @@ Se generaron gráficos como mapas de calor, diagramas de caja, gráficos de barr
 - Consumo medio de combustible por marca.
 - Relación entre tipo de transmisión y tamaño del motor.
 
-**Resultados clave:**
-Se midieron errores de predicción y precisión para evaluar la eficacia de los modelos.
-Se proporcionaron representaciones gráficas detalladas de los patrones en los datos.
+***Resultados clave:***
+Existe una relación positiva clara entre el tamaño del motor y las emisiones de CO2: a mayor tamaño del motor, mayores emisiones.
+Los vehículos con más cilindros tienden a consumir más combustible y emitir más CO2.
+En los Modelos predictivos la Regresión lineal mostró coeficientes significativos que indican cómo las variables predictoras influyen en las emisiones de CO2. En tanto que, en el modelo Random Forest Regressor la puntuación de la prueba fue razonablemente alta, mostrando que el modelo generaliza bien.
+La mayoría de los vehículos tienen un consumo promedio de combustible en un rango definido, pero se observaron valores atípicos que podrían corresponder a vehículos de alto rendimiento o ineficientes.
+Las clases de vehículos más grandes (como SUV y camiones) tienen mayores consumos de combustible y emisiones de CO2.
+El tipo de transmisión influye en el tamaño del motor y, en consecuencia, en el consumo y las emisiones.
+*Mapas de calor mostraron correlaciones significativas entre variables numéricas, destacando:*
+- Alta correlación entre FUEL CONSUMPTION y COEMISSIONS.
+- Los diagramas de caja y gráficos de dispersión evidenciaron:
+- Vehículos con motores más grandes tienen mayores consumos y emisiones.
+- Variabilidad en el consumo de combustible dentro de clases de vehículos similares.
