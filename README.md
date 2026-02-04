@@ -83,7 +83,7 @@ Se entrenaron modelos independientes para evaluar la relación entre:
 
 - **Python**
 - **pandas, numpy**
-- **matplotlib, seaborn**
+- **matplotlib, `seaborn**`
 - **scikit-learn**
 - **RandomForestRegressor**
 
